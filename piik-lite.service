@@ -1,0 +1,13 @@
+[Unit]
+Description=Piik-lite screen share + chat
+After=network.target
+
+[Service]
+WorkingDirectory=/home/ubuntu/piik-lite
+Environment=PORT=8787
+ExecStart=/usr/bin/node server.js
+Restart=always
+User=ubuntu
+
+[Install]
+WantedBy=multi-user.target

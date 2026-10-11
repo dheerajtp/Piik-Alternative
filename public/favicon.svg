@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Piik-lite">
+  <rect x="3" y="8" width="26" height="17" rx="5.5" fill="#e6a95c"/>
+  <path d="M10.5 8 13 3.5M21.5 8 19 3.5" stroke="#e6a95c" stroke-width="2.6" stroke-linecap="round"/>
+  <circle cx="12" cy="15.5" r="1.9" fill="#100f12"/>
+  <circle cx="20" cy="15.5" r="1.9" fill="#100f12"/>
+  <path d="M13.5 19.6c1.7 1.7 3.3 1.7 5 0" stroke="#100f12" stroke-width="1.9" stroke-linecap="round" fill="none"/>
+  <path d="M11 25l-1.6 3.2M21 25l1.6 3.2" stroke="#e6a95c" stroke-width="2.6" stroke-linecap="round"/>
+</svg>

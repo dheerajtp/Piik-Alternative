@@ -1,0 +1,7 @@
+# Replace with your DuckDNS subdomain.
+# Caddy gets and renews a Let's Encrypt certificate automatically and proxies
+# both HTTP and WebSocket traffic to the Node server. WebSocket upgrade
+# headers are forwarded by default.
+your-name.duckdns.org {
+	reverse_proxy 127.0.0.1:8787
+}
